@@ -15,7 +15,7 @@
 
     <!-- search popup area start -->
     <div class="search-popup" id="search-popup">
-        <form action="index.html" class="search-form">
+        <form action="?pagina=home" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -36,7 +36,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a class="main-logo" href="incio"><img src="assets/img/home-4/logo.png" alt="img"></a>
+                    <a class="main-logo" href="?pagina=home"><img src="assets/img/logo.png" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
                     <ul>
@@ -47,31 +47,29 @@
                     <ul class="navbar-nav menu-open text-end">
                         
                         <li>
-                            <a href="about.html">Nosotros</a>
+                            <a href="?pagina=about">Nosotros</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Software y más</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">Acerca</a></li>
-                                <li><a href="service.html">Servicios</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-single.html">Blog Detallado</a></li>
-                                <li><a href="faq.html">Faq</a></li>
-                                <li><a href="log-in.html">Entra</a></li>
-                                <li><a href="sign-up.html">Registro</a></li>
-                                <li><a href="contact.html">Contacto</a></li>
+                                <li><a href="?pagina=about">Acerca</a></li>
+                                <li><a href="?pagina=service">Servicios</a></li>
+                                <li><a href="?pagina=team">Team</a></li>
+                                <li><a href="?pagina=blog">Blog</a></li>
+                                <li><a href="?pagina=blog-single">Blog Detallado</a></li>
+                                <li><a href="?pagina=faq">Faq</a></li>
+                                <li><a href="?pagina=contact">Contacto</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Blog</a>
                             <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-single.html">Blog-Details</a></li>
+                                <li><a href="blog.php">Blog</a></li>
+                                <li><a href="blog-single.php">Blog-Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="contact.html">Contacto</a>
+                            <a href="contact.php">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -79,7 +77,7 @@
                     <ul>
                         <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
                         <li class="">
-                            <a href="log-in.html" class="btn btn-white">
+                            <a href="?pagina=service" class="btn btn-white">
                                 Apps
                             </a>
                         </li>

@@ -1,33 +1,31 @@
 <?php
     require_once("./configurations.php");
-    require_once("./head.php");
-
-    /*Header*/
-    if($pagina=="home" || $pagina=="" || $pagina=="inicio" || $pagina=="about" || $pagina=="service" || $pagina=="blog" || $pagina=="blog-single" || $pagina=="faq" || $pagina=="team" || $pagina=="contacto"){
-        require_once("./header.php");
-    }
+    require_once("./head.php"); 
+    require_once("./header.php");
     /*Validaciones para la pagina */
-    if($pagina == "home" || $pagina == "" || $pagina == "inicio"){
+    if($pagina=="home" || $pagina=="" || $pagina=="inicio"){
         require_once("./contenidoHome.php");
-    }else if($pagina == "about"){
-        require_once("./about.php");
-    }else if($pagina == "service"){
-        require_once("./service.php");
-    }else if($pagina == "blog"){
+    }elseif($pagina=="blog"){
         require_once("./blog.php");
-    }else if($pagina == "blog-single"){
-        require_once("./blog-single.php");
-    }else if($pagina == "faq"){
-        require_once("./faq.php");
-    }else if($pagina == "team"){
-        require_once("./team.php");
-    }else if($pagina == "contacto"){
+    }elseif($pagina=="contact"){
         require_once("./contact.php");
+    }elseif($pagina=="faq"){
+        require_once("./faq.php");
+    }elseif($pagina=="service"){
+        require_once("./service.php");
+    }elseif($pagina=="about"){
+        require_once("./about.php");
+    }elseif($pagina=="blog-single"){
+        require_once("./blog-single.php");
+    }elseif($pagina=="service-details"){
+        require_once("./service-details.php");
+    }elseif($pagina=="team"){
+        require_once("./team.php");
+    }elseif($pagina=="team-details"){
+        require_once("./team-details.php");
+    }else{
+        require_once("./404.php");
     }
-
-    /*Footer */
-    if($pagina=="home" || $pagina=="" || $pagina=="inicio" || $pagina=="about" || $pagina=="service" || $pagina=="blog" || $pagina=="blog-single" || $pagina=="faq" || $pagina=="team" || $pagina=="contacto"){
-        require_once("./footer.php");
-    } 
+    require_once("./footer.php");
 ?>
  

@@ -8,7 +8,7 @@
                             <h4 class="sub-title">Asdex Technologies </h4>
                             <h1 class="title">Somos una empresa que desarrolla aplicaciones móviles</h1>
                             <p> Somos una empresa dirigida al desarrollo de apps, por el momento tenemos esta pagina para que puedas probrar nuestras aplicaciones de manera gratuita, pronto estaremos en tu tienda de aplicaciones favorito.</p>
-                            <a class="btn btn-base" href="#">¡Comencemos!</a>
+                            <a class="btn btn-base" href="?pagina=service">¡Comencemos!</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                         <p>Creemos que nuestro país tiene a personas capaces de crear una gran empresa de desarrollo, por lo que decidimos crear la propia
                             eso conectando con gente grandiosa y profesional.
                         </p>
-                        <a class="btn btn-base mt-5" href="#">Conoce nuestro equipo</a>
+                        <a class="btn btn-base mt-5" href="?pagina=team">Conoce nuestro equipo</a>
                     </div>
                 </div>
             </div>
@@ -99,12 +99,12 @@
                                 <h2 class="mt-n1">Contactanos</h2>
                                 <p class="pe-5">Ingresa tus datos, para poder conocer tus intereses.</p>
                                 <div class="footer-widget widget mt-5">
-                                    <a class="logo" href="index.html"><img src="assets/img/home-4/logo.png" alt="img"></a>
+                                    <a class="logo" href="?pagina=home"><img src="assets/img/home-4/logo.png" alt="img"></a>
                 
                                     <p> contact.asdex@gmail.com</p>
                                     <ul class="social-area">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/asdextechnologies"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/asdextechnologies/"><i class="fab fa-instagram"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                         <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
                                     </ul>
