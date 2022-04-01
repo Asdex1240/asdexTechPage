@@ -64,18 +64,17 @@
                         <li class="menu-item-has-children">
                             <a href="#">Blog</a>
                             <ul class="sub-menu">
-                                <li><a href="blog.php">Blog</a></li>
-                                <li><a href="blog-single.php">Blog-Details</a></li>
+                                <li><a href="?pagina=blog">Blog</a></li>
+                                <li><a href="?pagina=blog-single">Blog-Details</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="contact.php">Contacto</a>
+                            <a href="?pagina=contact">Contacto</a>
                         </li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
                     <ul>
-                        <li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
                         <li class="">
                             <a href="?pagina=service" class="btn btn-white">
                                 Apps

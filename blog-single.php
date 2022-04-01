@@ -24,14 +24,7 @@
                     </div>
                     <div class="tag-share-area">
                         <div class="row">
-                            <div class="col-md-6 align-self-center">
-                                <div class="tag-inner">
-                                    <span>Tags: </span>
-                                    <a href="#"> Landing pafe, </a>
-                                    <a href="#">Saas, </a>
-                                    <a href="#">UI design</a>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-6 text-md-end mt-3 mt-md-0">
                                 <ul class="social-area">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -42,74 +35,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comment-area">
-                        <h5>03 Comments</h5>
-                        <div class="row g-3 media">
-                            <div class="col-xl-2 col-md-3">
-                                <img src="assets/img/testimonial/2.jpg" alt="img">
-                            </div>
-                            <div class="col-xl-10 col-md-9 media-body">
-                                <h6>Haslida Heris</h6>
-                                <span>20 Feb 2020 at 4:00 pm</span>
-                                <p> Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a class="btn btn-base" href="#">Reply</a>
-                            </div>
-                        </div>
-                        <div class="row g-3 media">
-                            <div class="col-xl-2 offset-lg-1 col-md-3">
-                                <img src="assets/img/testimonial/4.jpg" alt="img">
-                            </div>
-                            <div class="col-xl-9 col-md-8 media-body">
-                                <h6>Alris Haslida</h6>
-                                <span>20 Feb 2020 at 4:00 pm</span>
-                                <p> Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a class="btn btn-base" href="#">Reply</a>
-                            </div>
-                        </div>
-                        <div class="row g-3 media">
-                            <div class="col-xl-2 col-md-3">
-                                <img src="assets/img/testimonial/3.jpg" alt="img">
-                            </div>
-                            <div class="col-xl-10 col-md-9 media-body">
-                                <h6>Enida Moris</h6>
-                                <span>20 Feb 2020 at 4:00 pm</span>
-                                <p> Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a class="btn btn-base" href="#">Reply</a>
-                            </div>
-                        </div>
-                    </div>
-                    <form class="comment-form">
-                        <h5>Comments</h5>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="single-input-wrap">
-                                    <input type="text" class="form-control" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-input-wrap">
-                                    <input type="text" class="form-control" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="single-input-wrap">
-                                    <textarea rows="4" placeholder="Message..."></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-base">Submit your Message</button>
-                    </form>
                 </div>
                 <div class="col-lg-4">
                     <div class="sidebar-area ps-xl-2">
-                        <div class="widget widget_search">
-                            <form class="search-form">
-                                <div class="form-group">
-                                    <input type="text" placeholder="Search Here">
-                                </div>
-                                <button class="submit-btn" type="submit"><i class="fa fa-search"></i></button>
-                            </form>
-                        </div>
                         <div class="widget widget-recent-post">
                             <h4 class="widget-title">Recent Post</h4>
                             <ul>
@@ -158,30 +86,6 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="widget widget_categories">
-                            <h4 class="widget-title">Category</h4>
-                            <ul>
-                                <li><a href="#">Software</a></li>
-                                <li><a href="#">App Landing</a></li>
-                                <li><a href="#">Saas Landing</a></li>
-                                <li><a href="#">Design Studio</a></li>
-                                <li><a href="#">Product Showcase</a></li>
-                                <li><a href="#">Tech Company</a></li>
-                                <li><a href="#">Startup Company</a></li>
-                                <li><a href="#">Crypto Currency</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_tag_cloud mb-0">
-                            <h4 class="widget-title">Popular Tag</h4>
-                            <div class="tagcloud">
-                                <a href="#">UI / UX</a>
-                                <a href="#">UI Design</a>
-                                <a href="#">Development</a>
-                                <a href="#">Startup</a>
-                                <a href="#">Marketing</a>
-                                <a href="#">Digital</a>
-                            </div>
                         </div>
                     </div>
                 </div>

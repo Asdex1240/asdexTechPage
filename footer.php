@@ -7,10 +7,8 @@
                         <div class="footer-widget widget widget_link">
                             <h6 class="widget-title">Aplicaciones</h6>
                             <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Deme</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Listio</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Nexas</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>OnWave</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i>BackPack</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i>Finanzas</a></li>
                             </ul>
                         </div>
                     </div>
@@ -18,10 +16,7 @@
                         <div class="footer-widget widget widget_link">
                             <h6 class="widget-title">Nosotros</h6>
                             <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Company</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Leadership</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Diversity</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Jobs</a></li>
+                                <li><a href="?pagina=about"><i class="fas fa-angle-right"></i>Acerca de nosotros</a></li>
                             </ul>
                         </div>
                     </div>
@@ -29,11 +24,8 @@
                         <div class="footer-widget widget widget_link">
                             <h6 class="widget-title">Servicios</h6>
                             <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Graphics </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Web Design </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Web Development </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>SEO</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>My account</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i>Desarollo App </a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i>Diseño Web </a></li>
                             </ul>
                         </div>
                     </div>
@@ -41,10 +33,7 @@
                         <div class="footer-widget widget widget_link">
                             <h6 class="widget-title">Contacto</h6>
                             <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Help </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Support </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Clients </a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i>Contacts</a></li>
+                                <li><a href="?pagina=contact"><i class="fas fa-angle-right"></i>¡Escribenos!</a></li>
                             </ul>
                         </div>
                     </div>
