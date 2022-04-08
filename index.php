@@ -1,4 +1,5 @@
 <?php
+    require_once("./assets/admin/conexion.php");
     require_once("./configurations.php");
     require_once("./head.php"); 
     require_once("./header.php");
@@ -23,6 +24,8 @@
         require_once("./team.php");
     }elseif($pagina=="team-details"){
         require_once("./team-details.php");
+    }else if($pagina=="admin"){
+        require_once("./assets/admin/admin.php");
     }else{
         require_once("./404.php");
     }
