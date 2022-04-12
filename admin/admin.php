@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <form class="login-form default-form-wrap" name="autentificacion_frm" action="assets/admin/validar.php" method="post" enctype="application/x-www-form-urlencoded">
+                <form class="login-form default-form-wrap" name="autentificacion_frm" action="admin/validar.php" method="post" enctype="application/x-www-form-urlencoded">
                     <div class="single-input-wrap mb-4">
                         <label class="form-label">Usuario</label>
                         <input type="text" placeholder="Ingresa usuario" name="usuario">

@@ -11,8 +11,12 @@ if($filas){
     //Declaro mis variables de sesion
     $_SESSION["autentificado"] = true;
     $_SESSION["usuario"] = $_POST["usuario"];
-    header("Location: prueba.php");
+    header("Location: ../adminPage/index.php");
 }else{
-
+    echo("Datos incorrectos");
+    ?>
+    <a href="../?pagina=admin">Vuelve a intentar</a>
+    <?php
+    
 }
 ?>

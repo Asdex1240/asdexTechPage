@@ -1,6 +1,6 @@
 <?php
-    require_once("./assets/admin/conexion.php");
-    require_once("./assets/admin/configurations.php");
+    require_once("./admin/conexion.php");
+    require_once("./admin/configurations.php");
     require_once("./pages/head.php"); 
     require_once("./pages/header.php");
     /*Validaciones para la pagina */
@@ -25,7 +25,7 @@
     }elseif($pagina=="team-details"){
         require_once("./team-details.php");
     }else if($pagina=="admin"){
-        require_once("./assets/admin/admin.php");
+        require_once("./admin/admin.php");
     }else{
         require_once("./404.php");
     }
