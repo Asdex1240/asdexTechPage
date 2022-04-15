@@ -48,16 +48,16 @@
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open text-end">
                         <li>
-                            <a href="?pagina=about">Apps</a>
+                            <a href="?pagina=apk">Apps</a>
                         </li>
                         <li>
-                            <a href="#">Team Members</a>
+                            <a href="?pagina=teamMembers">Team Members</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="?pagina=blog">Blog</a>
                         </li>
                         <li>
-                            <a href="?pagina=contact">Proyectos</a>
+                            <a href="?pagina=proyectos">Proyectos</a>
                         </li>
                     </ul>
                 </div>
