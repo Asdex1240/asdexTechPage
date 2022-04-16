@@ -18,6 +18,8 @@ if($pagina=="home" || $pagina=="" || $pagina=="inicio"){
     require_once("./anadir.php");
 }else if($pagina=="teamMembers"){
     require_once("./anadir.php");
+}else if($pagina=="crud"){
+    require_once("./crud.php");
 }else{
     ?>
     <h1>Error, vuelve a intentarlo</h1>

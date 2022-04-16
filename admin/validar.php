@@ -15,9 +15,6 @@ if($filas){
     header("Location: ../adminPage/index.php");
 }else{
     echo("Datos incorrectos");
-    ?>
-    <a href="../?pagina=admin">Vuelve a intentar</a>
-    <?php
-    
+    header("Location: ../adminPage/index.php");
 }
 ?>
